@@ -26,7 +26,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ https://akimbojones.github.io/vigilant-octo-fiesta/ }}
+      url: ${{ akimbojones.github.io/vigilant-octo-fiesta/ }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
